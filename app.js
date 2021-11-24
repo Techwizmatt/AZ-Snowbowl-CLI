@@ -57,6 +57,8 @@ function run () {
             if (this.errors <= 5) {
                 ++this.errors
                 run()
+            } else {
+                console.log(chalk.red('Error has occured'))
             }
         }
 
