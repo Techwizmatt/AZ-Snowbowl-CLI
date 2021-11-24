@@ -1,6 +1,6 @@
 #! /usr/bin/env node --no-warnings
 const chalk = require("chalk")
-const osmosis = require('/usr/local/NodeJS/snowbowl-trails-open-bin/node_modules/osmosis')
+const osmosis = require('osmosis')
 
 function doGetAllSnowbowlLifts () {
     const lifts = []
